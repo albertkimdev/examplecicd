@@ -1,6 +1,6 @@
 version: 0.2 # the version of this file which amazon is gonna use
 phases: # pre build, post build, build
-  pre-build:
+  pre_build:
     commands:
       - echo "Pre build starting"
       # npm install here
