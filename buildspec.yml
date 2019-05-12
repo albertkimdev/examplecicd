@@ -1,20 +1,5 @@
-version: 0.2 # the version of this file which amazon is gonna use
-phases: # pre build, post build, build
-  pre_build:
-    commands:
-      - echo "Pre build starting"
-      # npm install here
-
-  build:
-    commands:
-      - echo "Build starting"
-      - npm install
-      # where the npm run build would go
-
-  post_build:
-    commands:
-      - echo "Post build starting"
+version: 0.2
 
 artifacts:
   files:
-    - node_modules/
+    - "**/*"
