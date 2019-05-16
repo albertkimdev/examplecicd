@@ -26,3 +26,4 @@ deploy:
   region: "us-east-1"
   app: "cicdgitlab"
   env: "cicdenv"
+  bucket_name: "elasticbeanstalk-us-east-1-486350401265"
