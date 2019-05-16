@@ -8,7 +8,7 @@ cache: npm
 before_install:
   - echo "before_install"
 install:
-  - echo "install"
+  - npm install
 before_script:
   - echo "before_script"
 script:
