@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - 11.6.0
+# can be multiple
+cache: npm
+
+#travis lifecycle methods
+before_install:
+  - echo "before_install"
+install:
+  - echo "install"
+before_script:
+  - echo "before_script"
+script:
+  - echo "script"
+after_success:
+  - echo "after_success"
+after_failure:
+  - echo "after_failure"
+after_script:
+  - echo "after_script"
+before_deploy:
+  - echo "before_deploy"
+deploy: # this is for gh pages, now do it aws
+  - echo "deploy"
+after_deploy:
+  - echo "after_deploy"
