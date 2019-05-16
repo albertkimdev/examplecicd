@@ -21,7 +21,5 @@ after_script:
   - echo "after_script"
 before_deploy:
   - echo "before_deploy"
-deploy: # this is for gh pages, now do it aws
-  - echo "deploy"
 after_deploy:
   - echo "after_deploy"
